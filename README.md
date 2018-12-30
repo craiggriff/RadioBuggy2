@@ -12,24 +12,24 @@ Shift - Rapid Fire
 
 R - Respot when upside down
 
-![Screenshot](ReleaseArt/ss1.jpg)
+![Screenshot](ReleaseArt/ss1.png)
 
-![Screenshot](ReleaseArt/ss2.jpg)
+![Screenshot](ReleaseArt/ss2.png)
 
-![Screenshot](ReleaseArt/ss3.jpg)
+![Screenshot](ReleaseArt/ss3.png)
 
-![Screenshot](ReleaseArt/ss4.jpg)
+![Screenshot](ReleaseArt/ss4.png)
 
-![Screenshot](ReleaseArt/ss5.jpg)
+![Screenshot](ReleaseArt/ss5.png)
 
-![Screenshot](ReleaseArt/ss6.jpg)
+![Screenshot](ReleaseArt/ss6.png)
 
-![Screenshot](ReleaseArt/ss7.jpg)
+![Screenshot](ReleaseArt/ss7.png)
 
-![Screenshot](ReleaseArt/ss8.jpg)
+![Screenshot](ReleaseArt/ss8.png)
 
-![Screenshot](ReleaseArt/ss9.jpg)
+![Screenshot](ReleaseArt/ss9.png)
 
-![Screenshot](ReleaseArt/ss10.jpg)
+![Screenshot](ReleaseArt/ss10.png)
 
-![Screenshot](ReleaseArt/ss11.jpg)
+![Screenshot](ReleaseArt/ss11.png)
