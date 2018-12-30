@@ -12,6 +12,8 @@ Shift - Rapid Fire
 
 R - Respot when upside down
 
+[Link to UTube Video Here](https://youtu.be/MRI0ujjIvcI)
+
 ![Screenshot](ReleaseArt/ss1.png)
 
 ![Screenshot](ReleaseArt/ss2.png)
