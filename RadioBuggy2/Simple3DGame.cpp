@@ -843,7 +843,7 @@ void Simple3DGame::UpdateDynamics()
 			btVector3 car_point = btVector3(0.0f, 0.0f, 1.0f);
 			car_point = rot_mat * car_point;
 
-			m_renderer->m_GunBall->CreateOne(XMFLOAT3(bug_pos.getX() + (car_point.getX()*3.0f), bug_pos.getY() + (car_point.getY() * 3.0f), bug_pos.getZ() + (car_point.getZ()*3.0f)), XMFLOAT3(car_point.getX()*5.0f, car_point.getY()*5.0f, car_point.getZ()*5.0f));
+			m_renderer->m_GunBall->CreateOne(XMFLOAT3(bug_pos.getX() + (car_point.getX()*3.0f), bug_pos.getY() + (car_point.getY() * 3.0f), bug_pos.getZ() + (car_point.getZ()*3.0f)), XMFLOAT3(car_point.getX()*10.0f, car_point.getY()*10.0f, car_point.getZ()*10.0f));
 
 		}
 		else
