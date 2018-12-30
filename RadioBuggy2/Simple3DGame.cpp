@@ -826,15 +826,12 @@ void Simple3DGame::UpdateDynamics()
 	float timeLeft = timeFrame;
 	float elapsedFrameTime;
 
-	if (jump == true)
+	
+	if (m_renderer->bCarMode == true)
 	{
-		m_player->Jump();
-	}
-
-	if (fire == true && m_renderer->m_Res->camera_mode == 0)
-	{
-		if (m_renderer->bCarMode == true)
+		if ((m_controller->KeyState(Windows::System::VirtualKey::Space, true) == true || (m_controller->KeyState(Windows::System::VirtualKey::Space, false)==true && m_controller->KeyState(Windows::System::VirtualKey::Shift, false))) && m_renderer->m_Res->camera_mode == 0)
 		{
+
 			std::vector<btTransform> car_trans = m_renderer->m_Car->getCarTransform();
 			btVector3 bug_pos = car_trans[0].getOrigin();
 
@@ -844,13 +841,18 @@ void Simple3DGame::UpdateDynamics()
 			car_point = rot_mat * car_point;
 
 			m_renderer->m_GunBall->CreateOne(XMFLOAT3(bug_pos.getX() + (car_point.getX()*3.0f), bug_pos.getY() + (car_point.getY() * 3.0f), bug_pos.getZ() + (car_point.getZ()*3.0f)), XMFLOAT3(car_point.getX()*10.0f, car_point.getY()*10.0f, car_point.getZ()*10.0f));
-
-		}
-		else
-		{
-			m_renderer->m_GunBall->CreateOne(XMFLOAT3(position.x + (m_controller->LookDirection().x*3.0f), position.y + m_player->player_eye_height + (m_controller->LookDirection().y*3.0f), position.z + (m_controller->LookDirection().z*3.0f)), XMFLOAT3((m_controller->LookDirection().x*5.0f) + velocity.x, (m_controller->LookDirection().y*5.0f) + velocity.y, (m_controller->LookDirection().z*5.0f) + velocity.z));
 		}
 	}
+	else
+	{
+		if (jump == true)
+		{
+			m_player->Jump();
+		}
+		m_renderer->m_GunBall->CreateOne(XMFLOAT3(position.x + (m_controller->LookDirection().x*3.0f), position.y + m_player->player_eye_height + (m_controller->LookDirection().y*3.0f), position.z + (m_controller->LookDirection().z*3.0f)), XMFLOAT3((m_controller->LookDirection().x*5.0f) + velocity.x, (m_controller->LookDirection().y*5.0f) + velocity.y, (m_controller->LookDirection().z*5.0f) + velocity.z));
+
+	}
+
 }
 
 //----------------------------------------------------------------------
