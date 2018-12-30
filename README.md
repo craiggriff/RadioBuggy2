@@ -4,7 +4,7 @@ A start. Based on Dark Island engine. Added car.
 
 WSAD to drive.
 
-Mouse Click - Shoot Object
+Mouse Left Click - Shoot Object
 
 Keyboard Numbers 1 - 5 Select Object
 
