@@ -1,6 +1,6 @@
 # DirectX 11 Radio Buggy 2 game
 
-A start. Based on Dark Island engine. Added car. 
+Based on Dark Island engine. Added car. 
 
 WSAD to drive.
 
