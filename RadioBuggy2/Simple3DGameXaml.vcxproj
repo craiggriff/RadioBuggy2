@@ -182,8 +182,8 @@
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x64</AppxBundlePlatforms>
-    <PackageCertificateThumbprint>ECDAE3BCA8DD70F520B09841079B65552E577751</PackageCertificateThumbprint>
-    <PackageCertificateKeyFile>SolidGame_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>BDD7AAEBBF5AA98E68470F84C1EA6517563A05EA</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>RadioBuggy2_StoreKey.pfx</PackageCertificateKeyFile>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
@@ -1521,6 +1521,7 @@
     <None Include="Assets\MusicTracks\Zander.wma">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="RadioBuggy2_StoreKey.pfx" />
     <None Include="README.md" />
     <None Include="SolidGame_StoreKey.pfx" />
     <None Include="SolidGame_TemporaryKey.pfx" />
@@ -2380,6 +2381,7 @@
     <Text Include="OldCode.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Media Include="Assets\MusicTracks\BlindingLights.mp3" />
     <Media Include="Assets\MusicTracks\buildfun.mp3" />
     <Media Include="Assets\MusicTracks\the_field_of_dreams.mp3" />
     <Media Include="Assets\MusicTracks\trippin.mp3" />

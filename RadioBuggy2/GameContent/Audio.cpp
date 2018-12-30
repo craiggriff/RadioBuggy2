@@ -182,7 +182,8 @@ void Audio::SetTrack(int track)
 	case 4:m_musicStreamer.Initialize(L"Assets/MusicTracks/relaxingsleep.mp3"); break;
 	case 5:m_musicStreamer.Initialize(L"Assets/MusicTracks/sunsetbeach.mp3"); break;
 	case 6:m_musicStreamer.Initialize(L"Assets/MusicTracks/buildfun.mp3"); break;
-	case 7:m_musicStreamer.Initialize(L"Assets/MusicTracks/the_field_of_dreams.mp3"); break;
+	//case 7:m_musicStreamer.Initialize(L"Assets/MusicTracks/the_field_of_dreams.mp3"); break;
+	case 7:m_musicStreamer.Initialize(L"Assets/MusicTracks/BlindingLights.mp3"); break;
 	case 8:m_musicStreamer.Initialize(L"Assets/MusicTracks/trippin.mp3"); break;
 	}
 

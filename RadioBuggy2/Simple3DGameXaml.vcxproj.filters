@@ -761,6 +761,7 @@
     <None Include="Assets\Compiled\pinetree.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
+    <None Include="RadioBuggy2_StoreKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Shaders\DefGroundPixelShader.hlsl">
@@ -2144,6 +2145,9 @@
       <Filter>ZZ_Assets\MusicTracks</Filter>
     </Media>
     <Media Include="Assets\MusicTracks\trippin.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
+    <Media Include="Assets\MusicTracks\BlindingLights.mp3">
       <Filter>ZZ_Assets\MusicTracks</Filter>
     </Media>
   </ItemGroup>
