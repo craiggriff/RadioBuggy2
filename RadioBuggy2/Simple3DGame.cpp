@@ -833,7 +833,23 @@ void Simple3DGame::UpdateDynamics()
 
 	if (fire == true && m_renderer->m_Res->camera_mode == 0)
 	{
-		m_renderer->m_GunBall->CreateOne(XMFLOAT3(position.x + (m_controller->LookDirection().x*3.0f), position.y + m_player->player_eye_height + (m_controller->LookDirection().y*3.0f), position.z + (m_controller->LookDirection().z*3.0f)), XMFLOAT3((m_controller->LookDirection().x*5.0f) + velocity.x, (m_controller->LookDirection().y*5.0f) + velocity.y, (m_controller->LookDirection().z*5.0f) + velocity.z));
+		if (m_renderer->bCarMode == true)
+		{
+			std::vector<btTransform> car_trans = m_renderer->m_Car->getCarTransform();
+			btVector3 bug_pos = car_trans[0].getOrigin();
+
+			btMatrix3x3 rot_mat = btMatrix3x3(car_trans[0].getRotation());
+
+			btVector3 car_point = btVector3(0.0f, 0.0f, 1.0f);
+			car_point = rot_mat * car_point;
+
+			m_renderer->m_GunBall->CreateOne(XMFLOAT3(bug_pos.getX() + (car_point.getX()*3.0f), bug_pos.getY() + (car_point.getY() * 3.0f), bug_pos.getZ() + (car_point.getZ()*3.0f)), XMFLOAT3(car_point.getX()*5.0f, car_point.getY()*5.0f, car_point.getZ()*5.0f));
+
+		}
+		else
+		{
+			m_renderer->m_GunBall->CreateOne(XMFLOAT3(position.x + (m_controller->LookDirection().x*3.0f), position.y + m_player->player_eye_height + (m_controller->LookDirection().y*3.0f), position.z + (m_controller->LookDirection().z*3.0f)), XMFLOAT3((m_controller->LookDirection().x*5.0f) + velocity.x, (m_controller->LookDirection().y*5.0f) + velocity.y, (m_controller->LookDirection().z*5.0f) + velocity.z));
+		}
 	}
 }
 
