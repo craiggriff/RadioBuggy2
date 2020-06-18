@@ -544,6 +544,14 @@
     <None Include="Assets\game-data.db">
       <Filter>AA_Data&amp;Settings</Filter>
     </None>
+    <None Include="Assets\MusicTracks\Darkambiance.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="README.md" />
+    <None Include="RadioBuggy2_StoreKey.pfx" />
+    <None Include="Assets\Compiled\_Program Files (x86)_Microsoft Visual Studio_2019_Community_Common7_IDE_Extensions_Microsoft_VsGraphics_Assets_Effects_Phong.dgsl.cso">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
     <None Include="Assets\Compiled\beachball.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
@@ -562,6 +570,12 @@
     <None Include="Assets\Compiled\bttreeA.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
+    <None Include="Assets\Compiled\buggy.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\buggy_long.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
     <None Include="Assets\Compiled\column.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
@@ -571,10 +585,16 @@
     <None Include="Assets\Compiled\dock.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
+    <None Include="Assets\Compiled\eye.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
     <None Include="Assets\Compiled\fence1.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
     <None Include="Assets\Compiled\fireplace.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Fireplace2.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
     <None Include="Assets\Compiled\flag-pole.cmo">
@@ -647,6 +667,9 @@
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
     <None Include="Assets\Compiled\pin.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\pinetree.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
     <None Include="Assets\Compiled\plant1.cmo">
@@ -724,19 +747,10 @@
     <None Include="Assets\Compiled\untitled.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
-    <None Include="Assets\MusicTracks\Darkambiance.mp3">
-      <Filter>ZZ_Assets\MusicTracks</Filter>
-    </None>
-    <None Include="Assets\Compiled\buggy.cmo">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </None>
-    <None Include="Assets\Compiled\buggy_long.cmo">
+    <None Include="Assets\Compiled\wheel.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
     <None Include="Assets\Compiled\wheel2.cmo">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </None>
-    <None Include="Assets\Compiled\wheel.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
     <None Include="Assets\Compiled\wheel3.cmo">
@@ -751,17 +765,6 @@
     <None Include="Assets\Compiled\wheel6.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
-    <None Include="Assets\Compiled\eye.cmo">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </None>
-    <None Include="README.md" />
-    <None Include="Assets\Compiled\Fireplace2.cmo">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </None>
-    <None Include="Assets\Compiled\pinetree.cmo">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </None>
-    <None Include="RadioBuggy2_StoreKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Shaders\DefGroundPixelShader.hlsl">
@@ -1090,687 +1093,6 @@
     <Image Include="Assets\LevelBinary\CamPath10.bmp">
       <Filter>ZZ_Assets\LevelBinary</Filter>
     </Image>
-    <Image Include="Assets\Compiled\alpha1.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\drop.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\fire01.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grass1.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grass1_small.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grass2.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grass2_small.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grass3.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grass3_small.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grass4.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grass4_small.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\misc_smoke.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\noise01.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\snow1.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\151.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\151_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\156.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\156_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\160.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\160_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\163.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\163_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\165.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\165_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\172.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\172_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\182.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\182_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\196.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\196_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\197.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\197_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\green.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\1bda4806_Alpha.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\1bda4806_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\1bda4806_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\6e2fc158_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\6e2fc158_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\7b26aa4d_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\7b26aa4d_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\09dbc9a9_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\09dbc9a9_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\57c1696e_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\57c1696e_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\00925fb3_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\00925fb3_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\alien.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\b98d8325_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\b98d8325_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\barrel.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\basamaklar.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\bbb4258c_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\bbb4258c_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\beachball.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\beachball_e.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Big_Old_House_C.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Big_Old_House_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Big_Old_House_S.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\bigrocks_norm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\bluesky.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Books_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Books_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Books_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Bridge.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Bridge_NM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Bridge_SP.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\BT_Tree_A.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\BT_Tree_A_Normals.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\BT_Tree_A_Specular.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\ce35a7f8_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\ce35a7f8_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Conifer2_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Conifer2_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\ConiferBark_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\ConiferBark_n.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\d1c3d725_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\d1c3d725_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\d4afa143_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\d4afa143_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\DaylightBox.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\direkler.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\ee22d6e4_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\ee22d6e4_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Emission.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\eye.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\f779c12a_Defuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\f779c12a_Normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Fabrics_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Fabrics_AO.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Fabrics_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Fabrics_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\face.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\fence1.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Fireplace_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Fireplace_Metalness.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Fireplace_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\fireplace_tex.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\fireplace_uv.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\gay.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\gay_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\gemblue.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\gemred.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\gemwhite.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Glass_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Glass_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Glass_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\GothicChurch_Bump.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\GothicChurch_Bump_.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\GothicChurch_Diffuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\GothicChurch_Illum.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\GothicChurch_Specular.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Granite.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\grimmnight_large.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hair.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\headlamp_lm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\heart.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hedge_diffuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hedge_normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hedgearch_diffuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hedgearch_normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hedgelong_diffuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hedgelong_normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hedgeround_diffuse.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\hedgeround_normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\kiris.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\lamp-glass.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\lamppost.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\leaves_tree2_n.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\leaves_tree2_s.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\leaves_tree2_t.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\MettleSky.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Mickey_Mouse_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Mickey_Mouse_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\mushroomred.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\ornamentowl_d.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\ornamentowl_n.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pin.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Plankfloor_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Plankfloor_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Plankfloor_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\plant1.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\plant2.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\plant3.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\plant4.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\plant5.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\plant6.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\plant7.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Plants_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Plants_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Plants_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Porch_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Porch_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Porch_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot1.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot1_nor.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot1_spec.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot2.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot2_nor.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot2_spec.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot3.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot3_nor.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot3_spec.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot4.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot4_nor.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot4_spec.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot5.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot5_nor.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pot5_spec.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Pottery_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Pottery_ao.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Pottery_normal.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Pottery_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pumpkintex.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\pupil.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\rock_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\rock_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\rock2_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\rock3_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\rock4_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Roofing_albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Roofing_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Roofing_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\skin.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\sorceress.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\sorceress_n.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\spot_lm.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\stormydays_large.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Tex_6990_0.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Tex_7290_0.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Tex_7395_0.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Tex_7485_0.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Tex_9195_0.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\toc.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\tree_bark.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\tree_leaves.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBark_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBark_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBark2_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBark2_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBark3_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBark3_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBranch_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBranch_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBranch2_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBranch2_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBranch3_D.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\TreeBranch3_N.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\trees_bark_002_col.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\trees_bark_002_nor.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\trees_leaves_003_col.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Walls_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Walls_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Walls_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\water1.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\water2.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\waternorm_1.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\waternorm_2.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\white.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Window_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Window_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Window_SPEC.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Wooden_Albedo.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Wooden_Metalness.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\Wooden_NRM.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\woodfloor.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\yell.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
-    <Image Include="Assets\Compiled\bark_tree2.dds">
-      <Filter>ZZ_Assets\Compiled</Filter>
-    </Image>
     <Image Include="Assets\BigLogo.png">
       <Filter>ZZ_Assets\StoreLogos</Filter>
     </Image>
@@ -1939,6 +1261,186 @@
     <Image Include="Assets\windows-sdk.png">
       <Filter>ZZ_Assets\StoreLogos</Filter>
     </Image>
+    <Image Include="Assets\Compiled\_Users_craig_Desktop_craiggriff_RadioBuggy2_RadioBuggy2_Assets_Compiled_beachball.dds.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\_Users_craig_Desktop_craiggriff_RadioBuggy2_RadioBuggy2_Assets_Compiled_gemred.dds.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\_Users_craig_Desktop_craiggriff_RadioBuggy2_RadioBuggy2_Assets_Compiled_Granite.dds.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\_Users_craig_Desktop_craiggriff_RadioBuggy2_RadioBuggy2_Assets_Compiled_yell.dds.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\1bda4806_Alpha.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\1bda4806_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\1bda4806_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\6e2fc158_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\6e2fc158_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\7b26aa4d_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\7b26aa4d_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\09dbc9a9_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\09dbc9a9_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\57c1696e_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\57c1696e_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\151.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\151_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\156.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\156_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\160.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\160_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\163.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\163_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\165.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\165_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\172.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\172_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\182.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\182_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\196.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\196_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\197.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\197_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\00925fb3_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\00925fb3_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\alien.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\alpha1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\b98d8325_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\b98d8325_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bark_tree2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\barrel.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\basamaklar.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bbb4258c_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bbb4258c_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\beachball.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\beachball_e.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Big_Old_House_C.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Big_Old_House_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Big_Old_House_S.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bigrocks_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bluesky.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Books_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Books_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Books_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Bridge.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Bridge_NM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Bridge_SP.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\BT_Tree_A.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\BT_Tree_A_Normals.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\BT_Tree_A_Specular.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
     <Image Include="Assets\Compiled\carbody_blue.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
@@ -1951,16 +1453,103 @@
     <Image Include="Assets\Compiled\carframe.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
-    <Image Include="Assets\Compiled\wheel2.dds">
+    <Image Include="Assets\Compiled\ce35a7f8_Defuse.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
-    <Image Include="Assets\Compiled\wheel2_n.dds">
+    <Image Include="Assets\Compiled\ce35a7f8_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Conifer2_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Conifer2_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ConiferBark_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ConiferBark_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\d1c3d725_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\d1c3d725_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\d4afa143_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\d4afa143_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\DaylightBox.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\direkler.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\drop.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ee22d6e4_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ee22d6e4_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Emission.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\eye.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
     <Image Include="Assets\Compiled\Eye_D.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
     <Image Include="Assets\Compiled\Eye_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\f779c12a_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\f779c12a_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fabrics_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fabrics_AO.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fabrics_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fabrics_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\face.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\fence1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\fire01.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fireplace_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fireplace_Metalness.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fireplace_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\fireplace_tex.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\fireplace_uv.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
     <Image Include="Assets\Compiled\FirePlaceBrick_BaseColor.dds">
@@ -1987,10 +1576,436 @@
     <Image Include="Assets\Compiled\FireplaceWroughtIron_Normal.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
+    <Image Include="Assets\Compiled\gay.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gay_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gemblue.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gemred.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gemwhite.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Glass_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Glass_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Glass_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Bump.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Bump_.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Illum.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Specular.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Granite.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass1_small.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass2_small.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass3.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass3_small.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass4.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass4_small.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\green.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grimmnight_large.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hair.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\headlamp_lm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\heart.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedge_diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedge_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgearch_diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgearch_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgelong_diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgelong_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgeround_diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgeround_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\kiris.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\lamp-glass.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\lamppost.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\leaves_tree2_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\leaves_tree2_s.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\leaves_tree2_t.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\MettleSky.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Mickey_Mouse_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Mickey_Mouse_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\misc_smoke.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\mushroomred.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\noise01.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ornamentowl_d.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ornamentowl_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pin.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
     <Image Include="Assets\Compiled\pinebrown.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
     <Image Include="Assets\Compiled\pinegreen.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plankfloor_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plankfloor_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plankfloor_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant3.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant4.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant5.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant6.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant7.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plants_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plants_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plants_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Porch_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Porch_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Porch_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot1_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot1_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot2_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot2_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot3.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot3_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot3_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot4.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot4_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot4_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot5.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot5_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot5_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Pottery_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Pottery_ao.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Pottery_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Pottery_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pumpkintex.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pupil.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock2_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock3_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock4_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Roofing_albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Roofing_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Roofing_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\skin.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\snow1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\sorceress.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\sorceress_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\spot_lm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\stormydays_large.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_6990_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_7290_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_7395_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_7485_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_9195_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\toc.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\tree_bark.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\tree_leaves.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark2_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark2_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark3_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark3_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch2_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch2_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch3_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch3_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\trees_bark_002_col.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\trees_bark_002_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\trees_leaves_003_col.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Walls_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Walls_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Walls_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\water1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\water2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\waternorm_1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\waternorm_2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\wheel2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\wheel2_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\white.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Window_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Window_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Window_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Wooden_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Wooden_Metalness.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Wooden_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\woodfloor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\yell.dds">
       <Filter>ZZ_Assets\Compiled</Filter>
     </Image>
   </ItemGroup>
@@ -2066,9 +2081,6 @@
     </Text>
     <Text Include="Notes.txt">
       <Filter>AA_Data&amp;Settings</Filter>
-    </Text>
-    <Text Include="Assets\Compiled\Info.txt">
-      <Filter>ZZ_Assets\Compiled</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
